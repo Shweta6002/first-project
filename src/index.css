@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color:black;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+    float: left;
+    width: 33.333333333%;
+    height: 33.333333333%;
+    border-width: 5px;
+    border-color: #504c4c;
+    -webkit-transition: background-color .1s;
+    -moz-transition: background-color .1s;
+    transition: background-color .1s;
+    will-change: background-color,border-color;
+    cursor: pointer;
+}
+
+.top {
+  border-bottom-style: solid;
+}
+
+.right {
+  border-left-style: solid;
+}
+
+.left {
+  clear: both;
+  border-right-style: solid;
+}
+
+.bottom {
+  border-top-style: solid;
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  height: 300px;
+  width: 300px;
+  margin-left: 37%;
+  margin-top: 5%;
+}
+
+.cross {
+  font-size: 70px;
+  padding-left: 20px;
+  color : white;
+  font-family: cursive;
+}
+
+button {
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  margin-top: 25px;
+  margin-left: 95px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+  cursor: pointer;
+}
+
+.winloss {
+  color: white;
+  margin-left: 110px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
