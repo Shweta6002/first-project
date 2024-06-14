@@ -1,0 +1,206 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.top {
+  background-color: #ECF4D6;
+  position: relative;
+  padding: 135px;
+  padding-bottom: 260px;
+}
+
+.skills {
+  margin: 70px;
+}
+
+.contact-me {
+  margin: 100px auto 50px auto;
+}
+
+.profile {
+  margin: 50px;
+}
+.button {
+  display: inline-block;
+  background-color: #79AC78;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 60px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Sono', monospace;
+  margin-bottom: 50px;
+}
+
+.button:hover{
+  background-color: #9cd59b;
+}
+.bottom-container {
+  background-color: #9bcb9a;
+  padding: 35px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #618264;
+  padding: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.footer-link:hover {
+  color:#ECF4D6;
+}
+
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.design-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.ucloud {
+  position: absolute;
+  right: 200px;
+  top: -18px;
+  width: 17%;
+}
+
+.grass1 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  left: 0;
+}
+
+.grass2 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  left: 186px;
+}
+
+.grass3 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  left: 373px;
+}
+
+.grass4 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  left: 562px;
+}
+
+.grass5 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  left: 753px;
+}
+
+.grass6 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  right: 185px;
+}
+
+.grass7 {
+  position: absolute;
+  bottom: -38px;
+  width: 15%;
+  right: 0;
+}
+
+.mcloud {
+  position: absolute;
+  width: 23%;
+  top: 51px;
+  left: 31px;
+}
+
+.lcloud {
+  position: absolute;
+  left: 190px;
+  top: 63px;
+  width: 15%;
+}
+
+.tree1 {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 250px;
+}
+
+.tree2 {
+  position: absolute;
+  width: 250px;
+  bottom: 10px;
+  right: 0;
+}
+
+.flower1 {
+  position: absolute;
+  width: 100px;
+  bottom: 15px;
+  left: 250px;
+}
+
+.flower2 {
+  position: absolute;
+  width: 120px;
+  bottom: 15px;
+  right: 350px;
+}
+
+.hr {
+  height: 5px;
+  width: 5%;
+  border: none;
+  border-top: 5px dotted grey;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 5px;
+  font-family: 'WindSong', cursive;
+  color: #618264;
+}
+
+h3 {
+  font-size: 22px;
+  color: #79AC78;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  color: #518352;
+}
+
+p {
+  margin-top: 0;
+  font-size: 20px;
+  font-family: 'Chilanka', cursive;
+}
